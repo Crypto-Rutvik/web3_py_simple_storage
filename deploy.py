@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # this is just to test
+############################################################################################################
 with open("./SimpleStorage.sol", "r") as file:
     simple_storage_file = file.read()
 
